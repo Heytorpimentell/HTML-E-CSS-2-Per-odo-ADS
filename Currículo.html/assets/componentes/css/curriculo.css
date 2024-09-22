@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+    align-items: center;
+    padding: 16px;
+}
+
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rebeccapurple;
+}
+
+a {
+    color: rgb(53, 52, 53);
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: rebeccapurple;
+}
+
+hr {
+    color: white;
+}
+
+iframe {
+    border: 5px solid rebeccapurple;
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: 600px;
+    transition: all 0.3s e=ease-in-out;
+
+}
