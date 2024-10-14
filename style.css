@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", serif;
+
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 50px;
+}
+
+
+header {
+    background-color: rgb(54, 54, 54);
+    max-height: 100%;
+}
+
+.menu nav a{
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 20px
+}
+
+.info h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    color: rgb(199, 199, 199);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(153, 153, 153);
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.info {
+        background: repeating-linear-gradient(
+            66deg,        /* Ângulo da hachura */
+            #1d1d1d,       /* Cor 1 */
+            #000000 1px,  /* Cor 1 fim */
+            #000000 1px,  /* Cor 2 início */
+            #000000 2px   /* Cor 2 fim */
+            
+        );
+        background-size: 100%;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.perfil img{
+    border-radius: 50% ;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    border: 5px inset grey;
+    position: absolute;
+    z-index: 10;
+    margin-top: 160px;
+}
+
+.sobre1{
+    background-color: rgb(145, 145, 145);
+    height: 500px;
+    position: relative;
+    margin-top: 130px;
+    padding-top: 90px;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.sobre1 iframe{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}

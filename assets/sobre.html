@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre</title>
+</head>
+
+<body>
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+    p {
+        color: white;
+        font-family: "Titillium Web", serif;
+        font-size: 18px;
+        padding-inline: 200px;
+        word-spacing: 5px;
+    }
+    body {
+        background-color: rgb(145, 145, 145);
+    }
+
+    .projetos a{
+        text-decoration: none;
+        display: inline-block;
+        width: 0 auto;
+        height: 0 auto;
+        color:rgb(255, 255, 255);
+        font-size: large;
+    }
+
+    .projetos{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 40px;
+    }
+
+    @keyframes growAndChangeColor {
+  from {
+    transform: scale(1);
+    border-color: rgb(255, 255, 255); /* Cor da borda inicial */
+    color: rgb(255, 255, 255); /* Cor do texto inicial */
+  }
+  to {
+    transform: scale(1.2);
+    border-color: rgb(0, 0, 0); /* Mudança de cor da borda */
+    color: rgb(0, 0, 0); /* Mudança de cor do texto */
+    font-weight: bolder;
+  }
+}
+
+a:hover {
+  animation: growAndChangeColor 0.3s forwards;
+}
+
+.projeto h1 {
+    color: rgb(46, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+</style>
+
+    <div id="Sobre">
+        <p>
+            Sou um jovem formado em Redes de Computadores e atualmente estou cursando Análise e Desenvolvimento de Sistemas (ADS). 
+            Durante minha formação, adquiri conhecimentos técnicos sólidos em infraestrutura de redes, programação, 
+            e desenvolvimento de sistemas, que me proporcionaram uma base robusta para enfrentar os desafios da área de tecnologia.
+            Minhas experiências acadêmicas incluem a participação em projetos práticos, como a solução prototipada Conecture desenvolvida durante minha residência no Porto Digital, e a
+            apresentação do projeto ExploraRec no Demoday do Senac.
+        </p>
+        <hr>
+        <div class="projeto">
+            <h1>Projetos</h1>
+        </div>
+        <div class="projetos">
+            <a href="https://www.linkedin.com/posts/heytor-pimentel-b121a125b_tenho-prazer-de-compartilhar-este-projeto-activity-7215436882237636608-3M_0?utm_source=share&utm_medium=member_desktop" target="_blank">ExploraRec</a>
+            <a href="https://www.linkedin.com/posts/heytor-pimentel-b121a125b_tenho-prazer-de-compartilhar-este-projeto-activity-7215436882237636608-3M_0?utm_source=share&utm_medium=member_desktop" target="_blank">Conecture</a>
+            <a href="https://www.linkedin.com/posts/heytor-pimentel-b121a125b_tenho-prazer-de-compartilhar-este-projeto-activity-7215436882237636608-3M_0?utm_source=share&utm_medium=member_desktop" target="_blank">Database</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
