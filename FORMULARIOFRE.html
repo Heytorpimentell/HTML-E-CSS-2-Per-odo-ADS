@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário freelancer</title>
+</head>
+
+<body>
+    <fieldset>
+        <div class="Form">
+            <form method="post" action="index.php"></form><br>
+            <h1>Formulário freelancer</h1><br>
+            <label for="nome">Nome:</label>
+            <input type="text" size="30" placeholder="Insira seu nome"><br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" size="30" placeholder="Insira seu sobrenome"><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" size="30" placeholder="(81)99999-9999"><br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Insira seu e-mail"><br>
+            <label for="mensagem">Mensagem:</label>
+            <input type="text" placeholder="Insir o que deseja"><br>
+            <label for="lingua">Lingua:</label> <br>
+            <select name="lingua" id="lingua">
+                <option value="0">Escolha idioma</option>
+                <option value= "1" label="Portugues-(pt-br)">Portugês(pt-br)</option>
+                <option value= "2" label="Inglês(ing-eua)">Inglês(ing-eua)</option>
+                <option value= "3" label="Inglês(ing-en)">Inglês(ing-en)</option>
+                <option value= "4" label="Espanhol">Espanhol</option>
+            </select><br><br>
+
+            <label for="requisito">
+                Protótipo:
+                <span class="custom-file-up">Inserir protótipo</span>
+                <input id="requisito" class="file-input" type="file"/>
+            </label>
+                <br>    
+            <label for="linguagem">Linguagens de preferências:</label> &nbsp;
+            <label for="Python">Python</label>
+            <input type="checkbox" name="opcao" id="opcao1"> <b>|</b>
+            <label for="CSS">CSS</label>    
+            <input type="checkbox" name="opcao" id="opcao2"> <b>|</b>
+            <label for="Java">Java</label>
+            <input type="checkbox" name="opcao" id="opcao3">
+            <label for="JavaScript">JavaScript</label> <b>|</b>
+            <input type="checkbox" name="opcao" id="opcao4">
+            <label for="Html">Html</label>
+            <input type="checkbox" name="opcao" id="opcao5"><br>
+
+            <label for="Bancodedados">Banco de dados:</label> 
+            <label for="MySQL">MySQL</label>
+            <input type="checkbox" name="Ocaobanco1" id="opcaob1"> <b>|</b> &nbsp;
+            <label for="MongoDb">MongoDB</label>
+            <input type="checkbox" name="Ocaobanco2" id="opcaob2"> <b>|</b> &nbsp;
+            <label for="N/A">N/A</label>
+            <input type="checkbox" name="Ocaobanco3" id="opcaob3"> <b>|</b> &nbsp;
+            <label for="Outro">Outro</label>
+            <input type="checkbox" name="Ocaobanco4" id="opcaob4"> <b>|</b> &nbsp;
+            <label for="PostgreSQL">PostgreSQL</label>
+            <input type="radio" name="Ocaobanco5" id="opcaob5"> <br>
+            <label for="checkbox">Turno para reuniões:</label> &nbsp;
+            <label for="checkbox">Manhã</label>
+            <input type="checkbox" name="manha" id="opcaoturno1"> <b>|</b> &nbsp;
+            <label for="checkbox">Tarde</label>
+            <input type="checkbox" name="tarde" id="opcaoturno2"> <b>|</b> &nbsp;
+            <label for="checkbox">Noite</label>
+            <input type="checkbox" name="noite" id="opcaoturno3"> <br>
+            <label for="horariosugerido">Horario Sugerido:</label> &nbsp;
+            <input type="time" name="horariosugerido" id="hrs"> <br>
+            <label for="Dataentrega">Data prevista entrega:</label> &nbsp;
+            <input type="date" name="entrega" id="dataengtrega"> <br>
+            <label for="Enviar"></label> <br>
+            <input type="submit" value="Enviar">
+            <label for="Limpar"></label>
+            <input type="reset" value="Limpar">
+        </div>
+    </fieldset>
+</body>
+</html>

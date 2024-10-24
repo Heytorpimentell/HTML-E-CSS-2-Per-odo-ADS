@@ -1,105 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Titillium Web", serif;
+    font-family: sans-serif;
+}
 
+body{
+    background-color: #efd9b4;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 
-body {
-    background-color: rgb(0, 0, 0);
+fieldset{
+    width: 50%;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding-top: 20px;
+    padding: 2%;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    height: 50px;
+.Form h1{
+    padding-bottom: 20px;
+    color: #292522          ;
+}
+
+input{
+    border-radius: 10px;
+    height: 25px;
+    margin-top: 10px;
+    border: none;
+    background-color:#292522 ;
+    color: #a39081;
 }
 
 
-header {
-    background-color: rgb(54, 54, 54);
-    max-height: 100%;
+select{
+    background-color: #292522;
+    color: #a39081;
+    border-radius: 10px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
 }
 
-.menu nav a{
-    color: grey;
-    text-decoration: none;
-    font-size: 18px;
+::placeholder{
+    color: #a39081;
+    padding-left: 10px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 60px;
+    height: 20pxs;
+    
+}
+
+input[type="submit"]:hover{
+    background: black;
+    color: #a39081;
+}
+
+
+
+input[type="reset"]{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 60px;
+    height: 20pxs;
+    
+}
+
+input[type="reset"]:hover{
+    background: black;
+    color: #a39081;
+}
+
+.file-input{
+    display: none;
+}
+
+.custom-file-up {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color:#292522 ;
     color: white;
-    padding-left: 20px
-}
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #a39081;
+  }
 
-.info h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 70px;
-    color: rgb(199, 199, 199);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.info h6{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(153, 153, 153);
-    padding-top: 5px;
-    font-size: 12px;
-}
-
-.info {
-        background: repeating-linear-gradient(
-            66deg,        /* Ângulo da hachura */
-            #1d1d1d,       /* Cor 1 */
-            #000000 1px,  /* Cor 1 fim */
-            #000000 1px,  /* Cor 2 início */
-            #000000 2px   /* Cor 2 fim */
-            
-        );
-        background-size: 100%;
-        height: 300px;
-        align-items: center;
-        justify-content: center;
-}
-
-.perfil{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-}
-
-.perfil img{
-    border-radius: 50% ;
-    height: 200px;
-    width: 200px;
-    display: flex;
-    border: 5px inset grey;
-    position: absolute;
-    z-index: 10;
-    margin-top: 160px;
-}
-
-.sobre1{
-    background-color: rgb(145, 145, 145);
-    height: 500px;
-    position: relative;
-    margin-top: 130px;
-    padding-top: 90px;
-    margin-left: 10%;
-    margin-right: 10%
-}
-
-.sobre1 iframe{
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    text-decoration: none;
-}
+  
